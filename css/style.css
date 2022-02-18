@@ -1,14 +1,14 @@
-:root {
+/* :root {
   --accent-bg-color: #2196f3;
   --main-text-color: #212121;
   --accent-text-color: #fff;
   --main-bg-color: #fff;
   --main-logo-color: #2196f3;
-}
+} */
 
 /* Остальной код */
 
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -59,11 +59,11 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
+}  */
 
 /* Шапка: логотип, меню, контакты */
 
-.header-container {
+/* .header-container {
   display: flex;
   align-items: center;
 }
@@ -166,11 +166,11 @@ html {
 .header-contact:focus {
   color: var(--accent-bg-color);
   outline: none;
-}
+} */
 
 /* Герой */
 
-.hero {
+/* .hero {
   max-width: 1600px;
 
   margin-left: auto;
@@ -189,8 +189,6 @@ html {
   background-size: cover;
 }
 
-.hero-container {
-}
 .hero-text {
   width: 696px;
 
@@ -231,11 +229,11 @@ html {
   color: #ffffff;
   text-align: center;
   align-items: center;
-}
+} */
 
 /* Features */
 
-.features {
+/* .features {
   padding-top: 94px;
 }
 
@@ -279,11 +277,11 @@ html {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-}
+} */
 
 /* Чем мы занимаемся */
 
-.works {
+/* .works {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -328,10 +326,10 @@ html {
   text-transform: uppercase;
   color: #fff;
   background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* Команда */
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
@@ -424,9 +422,9 @@ html {
   background-color: var(--accent-bg-color);
   fill: #fff;
   outline: none;
-}
+} */
 
-/* Секция Клиенты */
+/* Секция Клиенты
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -469,11 +467,11 @@ html {
   fill: var(--accent-bg-color);
   border-color: var(--accent-bg-color);
   outline: none;
-}
+} */
 
 /* Секция фильров */
 
-.samples-section {
+/* .samples-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -530,11 +528,11 @@ html {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   outline: none;
-}
+} */
 
 /* Примеры работ */
 
-.sample-title {
+/* .sample-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -619,11 +617,11 @@ html {
 
   color: #ffffff;
   padding: 63px 24px;
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -632,9 +630,9 @@ html {
 .footer-container {
   display: flex;
   align-items: baseline;
-}
+} */
 
-.footer-logo {
+/* .footer-logo {
   display: block;
   margin-bottom: 20px;
   font-family: "Raleway";
@@ -647,9 +645,9 @@ html {
 }
 .footer-logo-color {
   color: #fff;
-}
+} */
 
-.footer-address {
+/* .footer-address {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -677,7 +675,7 @@ html {
 
 /* Присоединяйтесь */
 
-.join-us-title {
+/* .join-us-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -717,11 +715,11 @@ html {
   background-color: var(--accent-bg-color);
   color: currentColor;
   outline: none;
-}
+} */
 
 /* Подпишитесь на рассылку */
 
-.subscribe-wrap {
+/* .subscribe-wrap {
   display: flex;
 }
 
@@ -763,9 +761,9 @@ html {
 
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
-.subscribe-btn {
+/* .subscribe-btn {
   padding: 10px 28px;
   min-width: 200px;
   height: 50px;
@@ -791,12 +789,12 @@ html {
   color: #ffffff;
 }
 
-.subscribe-icon {
+.subscribe-icon { 
   margin-left: 10px;
-}
+} */
 
 /* Модальное окно */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100vw;
@@ -846,14 +844,11 @@ html {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
+} */
 
 /* Форма модального окна */
 
-.form {
-}
-
-.modal-title {
+/* .modal-title {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
@@ -993,4 +988,4 @@ html {
   background-color: #188ce8;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
