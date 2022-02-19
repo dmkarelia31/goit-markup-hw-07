@@ -2,7 +2,7 @@
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-  &-title {
+  &__title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -18,11 +18,11 @@
   }
 }
 
-.client-item:not(:last-child) {
+.clients-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-icon {
+.clients-list__icon {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;

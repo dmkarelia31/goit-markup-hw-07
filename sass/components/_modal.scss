@@ -56,7 +56,7 @@
 
 /* Форма модального окна */
 
-.modal-title {
+.form__modal-title {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
@@ -69,7 +69,7 @@
 .modal-input-wrap {
   position: relative;
 }
-.modal-icon {
+.customer__modal-icon {
   position: absolute;
   left: 12px;
   top: 50%;
@@ -90,7 +90,7 @@
   }
 }
 
-.form-label {
+.data__form-label {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -105,7 +105,7 @@
   resize: none;
 }
 
-.form-input {
+.customer__form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -116,7 +116,7 @@
   &:focus {
     border-color: var(--accent-bg-color);
   }
-  &:focus + .modal-icon {
+  &:focus + .customer__modal-icon {
     fill: var(--accent-bg-color);
   }
   &.text::placeholder {

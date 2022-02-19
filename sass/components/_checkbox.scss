@@ -1,4 +1,4 @@
-.modal-checkbox-text {
+.checkbox__modal-checkbox-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,16 +16,16 @@
     margin-right: 7px;
   }
 
-  .modal-checkbox:checked + &::before {
+  .checkbox__modal-checkbox:checked + &::before {
     background-image: url(../images/icon-check.svg);
     border: none;
   }
 
-  .modal-checkbox:focus + &::before {
+  .checkbox__modal-checkbox:focus + &::before {
     border-color: #2196f3;
   }
 
-  .policy-link {
+  .checkbox__policy-link {
     color: #2196f3;
     text-decoration: underline;
   }

@@ -1,5 +1,5 @@
 // Примеры работ
-.sample-title {
+.describe__sample-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -8,7 +8,7 @@
   color: #212121;
   margin-bottom: 4px;
 }
-.sample-text {
+.describe__sample-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -38,7 +38,7 @@
   margin-top: 30px;
 }
 
-.sample-link {
+.example__sample-link {
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

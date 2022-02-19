@@ -1,7 +1,7 @@
 // Шапка - лого, навигация, контакты
 .header {
   border-bottom: 1px solid #ececec;
-  &-container {
+  &__container {
     display: flex;
     align-items: center;
   }
@@ -16,7 +16,7 @@
   list-style: none;
 }
 
-.nav-btn {
+.nav-list__btn {
   position: relative;
   display: block;
   text-decoration: none;
@@ -30,7 +30,7 @@
   }
 }
 
-.nav-btn.current:after {
+.nav-list__btn.current:after {
   position: absolute;
   content: "";
   display: block;
@@ -41,7 +41,7 @@
   bottom: 0;
 }
 
-.header-contact {
+.contact__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -63,20 +63,20 @@
   margin-left: auto;
   list-style: none;
   display: flex;
-  &-svg {
+  &__svg {
     margin-right: 10px;
     fill: currentColor;
   }
 }
 
-.nav-list > .header-item:not(:last-child) {
+.nav-list > .nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact .contact-item + .contact-item {
+.contact .contact__item + .contact__item {
   margin-left: 30px;
 }
 
-.nav-list .nav-btn.current {
+.nav-list__item .nav-list__btn.current {
   color: #2196f3;
 }

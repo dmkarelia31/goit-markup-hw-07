@@ -1,16 +1,16 @@
 // Ссылки на соц сети - "Наша Команда"
-.person-social {
+.person-list__social {
   display: flex;
   justify-content: center;
 }
 
-.person-social-item {
+.social__item {
   & + & {
     margin-left: 10px;
   }
 }
 
-.person-social-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,13 +39,13 @@
   display: flex;
 }
 
-.network-social-item {
+.list__network-social-item {
   & + & {
     margin-left: 10px;
   }
 }
 
-.network-social-link {
+.list__network-social-link {
   display: flex;
   justify-content: center;
   align-items: center;

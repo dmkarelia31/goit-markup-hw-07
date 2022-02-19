@@ -8,7 +8,7 @@
   clip: rect(0 0 0 0);
 }
 
-.filter-item:not(:last-child) {
+.filter-list__filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -18,7 +18,7 @@
   margin-bottom: 54px;
 }
 
-.filter-btn {
+.filter-list__filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;

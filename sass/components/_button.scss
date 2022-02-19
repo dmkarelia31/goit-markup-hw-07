@@ -1,5 +1,5 @@
 // Кнопка - герой
-.hero-btn {
+.hero-container__btn {
   display: inline-block;
   padding: 10px 32px;
   min-width: 200px;
@@ -27,7 +27,7 @@
 }
 
 // Кнопка - футер "Подписаться"
-.subscribe-btn {
+.newsletter__subscribe-btn {
   padding: 10px 28px;
   min-width: 200px;
   height: 50px;
@@ -52,7 +52,7 @@
   }
 }
 
-.subscribe-icon {
+.newsletter__subscribe-icon {
   margin-left: 10px;
 }
 

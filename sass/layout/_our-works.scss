@@ -2,7 +2,7 @@
 .works {
   padding-top: 94px;
   padding-bottom: 94px;
-  &-title {
+  &__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -33,8 +33,7 @@
     background: rgba(47, 48, 58, 0.8);
   }
 }
-
-.works-img {
+.works-list__works-img {
   position: relative;
   &:not(:last-child) {
     margin-right: 30px;
